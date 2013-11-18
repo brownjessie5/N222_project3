@@ -1,0 +1,12 @@
+
+ <script src="//connect.soundcloud.com/sdk.js"></script>
+<script>
+  SC.initialize({
+    client_id: "YOUR_CLIENT_ID",
+    redirect_uri: "http://example.com/callback.html",
+  });
+</script>
+
+
+<input type="button" id="loadTracks" class="button big" value="Get hottest track" />
+<div id="track"></div>
